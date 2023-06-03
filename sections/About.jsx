@@ -13,6 +13,7 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       variants={staggerContainer}
       whileInView="show"
+      initial="hidden"
       viewport={{ once: false, amount: 0.25 }}
     >
       <TypingText title="| About Metaversus" textStyles="text-center" />
